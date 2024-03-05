@@ -9,7 +9,7 @@ Welcome::Welcome(QWidget *parent, QString name, int age)
     ui->setupUi(this);
     QString str = QString::number (age);
     ui -> label_hello -> setText("hello " + name+ " " + str );
-    QPixmap pix ("D:\\Spring 2024\\CS2\\Lab\\CinemaProject\\Screenshot 2024-03-03 014239.png");
+    QPixmap pix (":/resources/resources/Screenshot 2024-03-03 014239.png");
     int w = ui -> label_image -> width();
     int h = ui -> label_image -> height();
     ui -> label_image ->setPixmap(pix.scaled(w, h, Qt::KeepAspectRatio));

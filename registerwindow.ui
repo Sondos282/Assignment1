@@ -85,7 +85,7 @@
   <widget class="QGroupBox" name="groupBox_birthdate">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>60</x>
      <y>80</y>
      <width>371</width>
      <height>80</height>
@@ -94,7 +94,7 @@
    <property name="title">
     <string>Date of Birth</string>
    </property>
-   <widget class="QComboBox" name="comboBox_months">
+   <widget class="QComboBox" name="comboboxmonth">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -180,7 +180,7 @@
   <widget class="QGroupBox" name="groupBox_gender">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>60</x>
      <y>170</y>
      <width>120</width>
      <height>80</height>
@@ -258,9 +258,9 @@
   <widget class="QGroupBox" name="groupBox_genres">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>240</y>
-     <width>241</width>
+     <x>60</x>
+     <y>260</y>
+     <width>321</width>
      <height>91</height>
     </rect>
    </property>
@@ -272,7 +272,7 @@
      <rect>
       <x>0</x>
       <y>20</y>
-      <width>58</width>
+      <width>71</width>
       <height>18</height>
      </rect>
     </property>
@@ -285,7 +285,7 @@
      <rect>
       <x>90</x>
       <y>20</y>
-      <width>58</width>
+      <width>91</width>
       <height>18</height>
      </rect>
     </property>
@@ -298,7 +298,7 @@
      <rect>
       <x>0</x>
       <y>40</y>
-      <width>58</width>
+      <width>81</width>
       <height>18</height>
      </rect>
     </property>
@@ -311,7 +311,7 @@
      <rect>
       <x>90</x>
       <y>40</y>
-      <width>58</width>
+      <width>91</width>
       <height>18</height>
      </rect>
     </property>
@@ -324,7 +324,7 @@
      <rect>
       <x>0</x>
       <y>60</y>
-      <width>58</width>
+      <width>91</width>
       <height>18</height>
      </rect>
     </property>
@@ -337,7 +337,7 @@
      <rect>
       <x>90</x>
       <y>60</y>
-      <width>58</width>
+      <width>81</width>
       <height>18</height>
      </rect>
     </property>
@@ -349,8 +349,8 @@
   <widget class="QPushButton" name="pushButton_Register">
    <property name="geometry">
     <rect>
-     <x>89</x>
-     <y>330</y>
+     <x>60</x>
+     <y>360</y>
      <width>151</width>
      <height>41</height>
     </rect>
@@ -388,8 +388,8 @@
   <widget class="QLabel" name="label_dataerror">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>340</y>
+     <x>240</x>
+     <y>370</y>
      <width>171</width>
      <height>20</height>
     </rect>

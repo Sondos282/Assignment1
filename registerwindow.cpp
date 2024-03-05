@@ -12,6 +12,18 @@ RegisterWindow::RegisterWindow(QWidget *parent)
     ui -> label_passerror -> setVisible(false);
     ui -> label_dataerror -> setVisible(false);
     ui -> label_ageerror -> setVisible(false);
+    ui->comboboxmonth->addItem("Jan");
+    ui->comboboxmonth->addItem("Feb");
+    ui->comboboxmonth->addItem("Mar");
+    ui->comboboxmonth->addItem("April");
+    ui->comboboxmonth->addItem("May");
+    ui->comboboxmonth->addItem("June");
+    ui->comboboxmonth->addItem("July");
+    ui->comboboxmonth->addItem("Aug");
+    ui->comboboxmonth->addItem("Sep");
+    ui->comboboxmonth->addItem("Oct");
+    ui->comboboxmonth->addItem("Nov");
+    ui->comboboxmonth->addItem("Dec");
 }
 
 RegisterWindow::~RegisterWindow()
@@ -21,13 +33,17 @@ RegisterWindow::~RegisterWindow()
 
 void RegisterWindow::on_pushButton_Register_clicked()
 {
+    ui -> label_nameerror -> setVisible(false);
+    ui -> label_passerror -> setVisible(false);
+    ui -> label_dataerror -> setVisible(false);
+    ui -> label_ageerror -> setVisible(false);
     QString name = ui -> lineEdit_user ->text();
     QString pass = ui -> lineEdit_pass ->text();
     QString repass = ui -> lineEdit_repass ->text();
     QString year = ui -> lineEdit_year ->text();
     int yearnum = year.toInt();
     int age = 2024 - yearnum;
-    QString month = ui -> comboBox_months -> currentText();
+    QString month = ui -> comboboxmonth -> currentText();
     bool female = ui -> radioButton_female ->isChecked();
     bool male = ui -> radioButton_male ->isChecked();
     bool user = ui -> radioButton_user->isChecked();
